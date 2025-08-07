@@ -8,6 +8,8 @@
 body{
     background-image: url("img/fondo.png");
     background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .logo{
@@ -71,23 +73,10 @@ p{
 
 .parrafo{
     padding: 10px 60px;
-}
 
-.contenedores{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 35px;
-    gap: 20px;
 }
 
 .container2 img{
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-.container3 img{
     width: 1000px;
     display: block;
     margin: 0 auto;
